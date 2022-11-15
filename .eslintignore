@@ -1,0 +1,16 @@
+node_modules
+*.md
+*.scss
+*.woff
+*.ttf
+.vscode
+mock
+public
+bin
+build
+config
+dist
+dist_test
+dist_mock
+dist_development
+dist_production

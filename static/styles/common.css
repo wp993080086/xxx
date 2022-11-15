@@ -1,0 +1,50 @@
+/* 图片背景 */
+.img_bg{
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: transparent;
+  background-size: contain;
+}
+/* 单行超出省略 */
+.omit {
+  overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* 多行超出省略 */
+.omit2{
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+/* 悬浮阴影 */
+.box_shadow{
+  transition: ease var(--pdd-transition-duration);
+}
+.box_shadow:hover {
+  box-shadow: 0 0 10px #cccccc;
+}
+/* 下载链接 */
+.link{
+  cursor: pointer;
+  transition: ease var(--pdd-transition-duration);
+  color: #3D90FF;
+}
+.link:hover{
+  text-decoration: underline;
+}
+/* Flex垂直水平对齐 */
+.flex_c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Flex垂直左右对齐 */
+.flex_s_b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
