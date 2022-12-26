@@ -5,7 +5,7 @@ export default {
 	// 全局页眉: https://go.nuxtjs.dev/config-head
 	head: {
 		title: 'nuxt-blogs',
-		htmlAttrs: { lang: 'en' },
+		htmlAttrs: { lang: 'en', theme: 'bright' },
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no' },

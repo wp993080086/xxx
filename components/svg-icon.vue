@@ -1,5 +1,5 @@
 <template>
-	<svg :class="svgClass" aria-hidden="true" :color="color">
+	<svg :class="svgClass" aria-hidden="true" :color="color" v-on="$listeners">
 		<use :xlink:href="iconName" />
 	</svg>
 </template>
@@ -16,10 +16,10 @@ export default {
 			type: String,
 			default: ''
 		},
-    color: {
-      type: String,
-      default: '#a1a1a1'
-    }
+		color: {
+			type: String,
+			default: '#a1a1a1'
+		}
 	},
 	computed: {
 		iconName() {
@@ -39,6 +39,6 @@ export default {
 	font-size: 1.2em;
 	vertical-align: -0.15em;
 	overflow: hidden;
-  fill: currentColor !important;
+	fill: currentColor !important;
 }
 </style>

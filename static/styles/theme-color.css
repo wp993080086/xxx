@@ -1,5 +1,4 @@
 :root {
-  --pdd-bg-color: #ffffff;
   --pdd-color-white: #ffffff;
   --pdd-color-black: #000000;
   --pdd-color-primary: #409eff;
@@ -31,6 +30,9 @@
   --pdd-border-color-light: #e4e7ed;
   --pdd-transition-duration: 0.5s;
 }
-[data-theme='dark'] {
+html[theme='dark'] {
   --pdd-bg-color: #141414;
+}
+html[theme='bright'] {
+  --pdd-bg-color: #ffffff;;
 }
