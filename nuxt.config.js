@@ -9,7 +9,7 @@ export default {
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no' },
-			{ name: 'description', content: '' },
+			{ name: 'description', content: '博客' },
 			{ name: 'format-detection', content: 'telephone=no' }
 		],
 		link: [
