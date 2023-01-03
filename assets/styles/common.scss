@@ -1,0 +1,39 @@
+// 水平垂直居中
+@mixin flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// 单行超出省略号
+@mixin omit {
+  overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+// 多行超出省略号
+@mixin omit2 {
+  word-break: break-fill;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+// 悬浮变化
+@mixin cursor_hand {
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+// 悬浮阴影
+@mixin box_shadow($time : 0.5, $color: #cccccc) {
+  transition: ease $time + s;
+  &:hover {
+    box-shadow: 0 0 10px $color;
+  }
+}
